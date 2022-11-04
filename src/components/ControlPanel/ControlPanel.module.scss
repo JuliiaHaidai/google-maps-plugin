@@ -1,0 +1,32 @@
+.controlPanel {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+  z-index: 10000;
+  height: 10vh;
+}
+
+.buttons {
+  input {
+    background-color: white;
+    border-radius: 5px;
+    width: 40px;
+    margin: 5px;
+  }
+}
+
+.logoutBtn {
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  color: rgb(64, 64, 64);
+  font-weight: 500;
+  padding: 3px 5px;
+  &:hover{
+    color:  rgb(48, 19, 234);
+    font-weight: bold;
+  }
+}

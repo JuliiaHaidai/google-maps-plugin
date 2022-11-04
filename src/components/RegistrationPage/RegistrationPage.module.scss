@@ -1,0 +1,56 @@
+.registrationPage{
+  background-image: url("../../image/map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 7%;
+}
+
+.form {
+  margin: auto;
+  max-width: 250px;
+  width: 23%;
+  text-align: center;
+  label {
+    color: rgb(200, 243, 255);
+  }
+}
+
+.logRegBtn {
+  width: 100px;
+  border: none;
+  background-color: rgba(188, 245, 255, 0);
+  color: white;
+  margin-top: 10%;
+  margin-right: 3%;
+  float: right;
+  font-size: 22px;
+  text-decoration: underline white;
+  &:hover {
+    color:rgb(87, 128, 241);
+    text-decoration: none;
+  }
+}
+
+.submitBtn {
+  margin: 10px;
+  width: 100px;
+  background-color: rgb(162, 238, 238);
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 3px 0;
+  &:hover {
+    background-color: rgb(119, 162, 255);
+    font-weight: 700;
+  }
+}
+
+.error {
+  margin: 10px;
+  padding: 3px;
+  color: rgb(200, 34, 34);
+  font-weight: 500;
+  background-color:rgba(255, 255, 255, 0.566);
+  width: 100%;
+}

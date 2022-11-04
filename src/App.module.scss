@@ -1,0 +1,17 @@
+.app {
+  > button {
+    position: fixed;
+    z-index: 10;
+  }
+}
+
+.loading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

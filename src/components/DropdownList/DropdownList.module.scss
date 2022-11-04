@@ -1,0 +1,18 @@
+.dropdownItem {
+  input {
+    width: 40px;
+  }
+}
+
+.dropdown {
+  > div > button {
+    background-color: white;
+    color: blue;
+    width: 60px;
+    font-size: 40px;
+    padding: 0;
+    &:after {
+      content: none;
+    }
+  };
+}
